@@ -5,12 +5,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   </head>
 
   <body>
-    <h1> Seleccione la práctica a la que desea acceder </h1>
-    <li><a href="prac1/index.html">Práctica 1</a></li>
-    <li><a href="prac2/index.html">Práctica 2</a></li>
+    <div class="text-center px-5 mx-5">
+      <h1> Seleccione la práctica a la que desea acceder </h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <iframe src="prac1/index.html" width="100%" height="400rem"></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Práctica B1</h5>
+            <a href="prac1/index.html" class="btn btn-info">Visitar página</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <iframe src="prac2/index.html" width="100%" height="400rem"></iframe>
+          <div class="card-body">
+            <h5 class="card-title">Práctica B2</h5>
+            <a href="prac2/index.html" class="btn btn-info">Visitar página</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   </body>
 </html>
 
