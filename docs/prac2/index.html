@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary px-5">
-      <a class="navbar-brand bold mx-5 px-5 text-center font-weight-bold" href="#">Bootstrap</a>
+      <a class="navbar-brand bold ml-5 pl-5 text-center font-weight-bold" href="#">Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -91,14 +91,16 @@
       </button>
     </div>
 
-    <div id="titleCardsItem" class="row m-5">
-      <div id="titleItem1" class="container my-4 col-12">
+    <div id="titleCardsItem" class="row m-3">
+      <div id="titleItem1" class="container col-12">
         <h1 class="mx-auto text-center col-12">Lorem, ipsum dolor</h1> 
         <h5 class="mx-auto text-info text-center col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Laudantium, quos. Vel suspendisse nulla, suscipit curabitur eleifend, porttitor quis neque laoreet. Dapibus nulla luctus, pulvinar est eu, magna vulputate et mus.</h5>
       </div>
+    </div>
     
-      <div class="card-deck">
-        <div class="card mx-5">
+    <div class="row px-5 py-3">
+      <div class="col-lg-4 px-lg-5 pb-md-3 pb-sm-3 pb-xs-3 col-md-6 col-sm-12">
+        <div class="card px-0">
           <img src="img/2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
@@ -106,7 +108,9 @@
             <a href="#" class="btn btn-info font-weight-bold">Más información</a>
           </div>
         </div>
-        <div class="card mx-5">
+      </div>
+      <div class="col-lg-4 px-lg-5 pb-md-3 pb-sm-3 pb-xs-3 col-md-6 col-sm-12">
+        <div class="card px-0">
           <img src="img/3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
@@ -114,7 +118,9 @@
             <a href="#" class="btn btn-info font-weight-bold">Más información</a>
           </div>
         </div>
-        <div class="card mx-5">
+      </div>
+      <div class="col-lg-4 px-lg-5 pb-md-3 pb-sm-3 pb-xs-3 col-md-6 col-sm-12">
+        <div class="card px-0">
           <img src="img/4.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title font-weight-bold">Card title</h5>
@@ -141,8 +147,8 @@
         <h1 class="mx-auto text-center col-12 font-weight-normal">Lorem, ipsum dolor</h1> 
         <h5 class="mx-auto text-info text-center col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Laudantium, quos. Vel suspendisse nulla, suscipit curabitur eleifend, porttitor quis neque laoreet. Dapibus nulla luctus, pulvinar est eu, magna vulputate et mus.</h5>
       </div>
-      <div class="row container-fluid">
-        <div class="accordion col-6" id="accordionExample">
+      <div class="row col-12">
+        <div class="accordion col-lg-6 col-md-12 mb-md-3 mb-sm-3 mb-xs-3" id="accordionExample">
           <div class="card">
             <div class="card-header bg-info" id="headingOne">
               <h2 class="mb-0">
@@ -188,24 +194,17 @@
           </div>
         </div>
 
-        <div class="col-6">
-          <img src="img/2.jpg" class="card-img-top" alt="...">
-          <ul class="list-group" id="selectable-list">
-            <li class="list-group-item list-group-item-action bg-info active">Cras justo odio</li>
-            <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
-            <li class="list-group-item list-group-item-action">Morbi leo risus</li>
-            <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
-            <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
-          </ul>
-
-          <!-- <div class="list-group font-weight-bold" id="list-tab" role="tablist"> -->
-          <!--   <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Cras justo odio</a> -->
-          <!--   <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Dapibus ac facilisis in</a> -->
-          <!--   <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Morbi leo risus</a> -->
-          <!--   <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Porta ac consectetur ac</a> -->
-          <!--   <a class="list-group-item list-group-item-action" id="list-extra-list" data-toggle="list" href="#list-otro" role="tab" aria-controls="otro">Vestibulum at eros</a> -->
-          <!-- </div> -->
-
+        <div class="col-lg-6 col-md-12">
+          <div class="card px-0">
+            <img src="img/2.jpg" class="card-img-top" alt="...">
+            <ul class="list-group" id="selectable-list">
+              <li class="list-group-item list-group-item-action bg-info active">Cras justo odio</li>
+              <li class="list-group-item list-group-item-action">Dapibus ac facilisis in</li>
+              <li class="list-group-item list-group-item-action">Morbi leo risus</li>
+              <li class="list-group-item list-group-item-action">Porta ac consectetur ac</li>
+              <li class="list-group-item list-group-item-action">Vestibulum at eros</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
